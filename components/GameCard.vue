@@ -2,7 +2,7 @@
   <li class="game-card">
     <img 
       :src="`/images/${game.id}.webp`"
-      :alt="game.name"
+      :alt="game.title"
       class="game-logo"
     >
   </li>

@@ -18,6 +18,36 @@ const handleSearch = (query: string) => {
 
 <style>
 .wrapper {
-  padding: 35px;
+  padding: 12px;
+}
+
+@media (min-width: 575px) {
+  .wrapper {
+    padding: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    padding: 32px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrapper {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .wrapper {
+    padding: 60px;
+  }
 }
 </style>

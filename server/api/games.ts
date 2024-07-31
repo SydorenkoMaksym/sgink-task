@@ -1,10 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 
-interface Game {
-  id: number;
-  name: string;
-}
+import type { Game } from '@/types/game';
 
 export default defineEventHandler(async () => {
   try {
